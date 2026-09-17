@@ -682,6 +682,11 @@ body {
 a {
   transition: color 0.6s;
 }
+*:focus-visible {
+  outline: red solid 2px !important;
+  outline-offset: 2px !important;
+  transition: outline 0.2s ease-in-out;
+}
 .cid-s48MCQYojq {
   background-image: url("../../../assets/images/background7.jpg");
 }
@@ -2344,38 +2349,6 @@ a {
 }
 @media (min-width: 992px) {
   .cid-tn6WoG827F .text-wrapper {
-    padding: 2rem;
-  }
-}
-.cid-tn6SuOvYoy {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #ffffff;
-}
-.cid-tn6SuOvYoy .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-tn6SuOvYoy .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-tn6SuOvYoy .row {
-  flex-direction: row-reverse;
-}
-.cid-tn6SuOvYoy .video-wrapper iframe {
-  width: 100%;
-}
-.cid-tn6SuOvYoy .mbr-section-title,
-.cid-tn6SuOvYoy .mbr-description {
-  text-align: center;
-}
-@media (min-width: 992px) {
-  .cid-tn6SuOvYoy .text-wrapper {
     padding: 2rem;
   }
 }
